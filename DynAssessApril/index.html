@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Dynamic Assessment 1</title>
+        <link href="index.css" rel="stylesheet" type="text/css">
+        <link href="menu.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        
+        <div id="bg">
+            
+        </div>
+        
+        <div id="app1">
+            
+                <div id="zoom">
+                    <div id="zoomcontrols">
+                        <button id="pos">+</button>
+                        <button id="neg">-</button>
+                    </div>
+                </div>
+
+                <div id="controls">
+                    <button id="conprev">Previous</button>
+                    
+                    <button id="conbg1">BG1</button>
+                    <button id="conbg2">BG2</button>
+                    <button id="conbg3">BG3</button>
+                    <button id="conbg4">BG4</button>
+                    
+                    <button id="connext">Next</button>
+                    <br/>
+                    <div id="ch1" class="bgthumbs"></div>
+                    <div id="ch2" class="bgthumbs"></div>
+                    <div id="ch3" class="bgthumbs"></div>
+                </div>
+            
+        </div>
+        
+        <div id="menu">
+            
+                <button id="butmake" class="onehun">Make BG</button>
+                <button id="butres" class="onehun">Reset</button>
+                <button id="buthide" class="onehun">Hide App</button>
+                <button id="butshow" class="onehun">Show App</button>
+                <input type="number" id="numinp" class="onehun" onchange="myFunction(this.value)">
+                <button id="butopen">Open</button>
+                <button id="butclose">Close</button>
+            
+        </div>
+        
+        
+        <script src="index.js"></script>   
+        <script src="menu.js"></script>   
+    </body>
+</html>
